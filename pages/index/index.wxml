@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<view class="container back" style="background: url('/images/back.png') no-repeat;">
+  <image src="/images/title.png" style="width:494rpx;height:156rpx;margin-top:150rpx;"></image>
+
+  <view class="center-view">
+    <view class="flex-between">
+      <text style="flex-grow:1;">输入手机号码</text>
+      <text style="color: #444;">历史账单</text>
+    </view>
+    <input type="phone" />
+    <text>选择充值金额</text>
+    <view class="money-container">
+      <view class="money">
+        <view class="t1">
+          <text class="s1">10</text>
+          <text>元</text>
+        </view>
+        <text class="s2">实付9.5元</text>
+      </view>
+      <view class="money">
+        <view class="t1">
+          <text class="s1">20</text>
+          <text>元</text>
+        </view>
+        <text class="s2">实付19元</text>
+      </view>
+      <view class="money">
+        <view class="t1">
+          <text class="s1">30</text>
+          <text>元</text>
+        </view>
+        <text class="s2">实付28.5元</text>
+      </view>
+      <view class="money">
+        <view class="t1">
+          <text class="s1">50</text>
+          <text>元</text>
+        </view>
+        <text class="s2">实付47.5元</text>
+      </view>
+      <view class="money">
+        <view class="t1">
+          <text class="s1">80</text>
+          <text>元</text>
+        </view>
+        <text class="s2">实付76元</text>
+      </view>
+      <view class="money">
+        <view class="t1">
+          <text class="s1">100</text>
+          <text>元</text>
+        </view>
+        <text class="s2">实付95元</text>
+      </view>
+    </view>
+    <view>1.虚拟号码无法充值</view>
+    <view>2.转网号无法充值</view>
+    <view>3.充值成功后均可参与百分之一概率免单</view>
+  </view>
+
+  <view class="bottom-view">
+    <view class="bt">免单用户</view>
+  </view>
+</view>

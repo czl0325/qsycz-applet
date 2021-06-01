@@ -1,0 +1,21 @@
+/**app.wxss**/
+page {
+  background-color: white;
+  font-family: "PingFangSC";
+  font-size: 28rpx;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
