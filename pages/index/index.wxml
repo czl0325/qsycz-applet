@@ -60,5 +60,24 @@
 
   <view class="bottom-view">
     <view class="bt">免单用户</view>
+
+    <scroll-view >
+      <view class="user-item">
+        <image></image>
+        <text>恭喜用户159****1912获得免单</text>
+      </view>
+      <view class="user-item">
+        <image></image>
+        <text>恭喜用户159****1912获得免单</text>
+      </view>
+      <view class="user-item">
+        <image></image>
+        <text>恭喜用户159****1912获得免单</text>
+      </view>
+      <view class="user-item">
+        <image></image>
+        <text>恭喜用户159****1912获得免单</text>
+      </view>
+    </scroll-view>
   </view>
 </view>

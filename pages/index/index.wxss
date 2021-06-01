@@ -80,3 +80,27 @@
   font-size: 40rpx;
   font-weight: bold;
 }
+
+.bottom-view scroll-view {
+  margin-top: 40rpx;
+  height: 380rpx;
+}
+
+.bottom-view .user-item {
+  display: flex;
+  align-items: center;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+}
+
+.bottom-view .user-item image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+.bottom-view .user-item text {
+  margin-left: 30rpx;
+  font-size: 32rpx;
+}

@@ -3,6 +3,7 @@ page {
   background-color: white;
   font-family: "PingFangSC";
   font-size: 28rpx;
+  color: #444;
 }
 
 .container {
