@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "item-history": "/components/item-history/index"
+  },
+  "navigationBarTitleText": "历史记录"
+}

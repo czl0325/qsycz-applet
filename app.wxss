@@ -1,6 +1,6 @@
 /**app.wxss**/
 page {
-  background-color: white;
+  background-color: #F2F2F2;
   font-family: "PingFangSC";
   font-size: 28rpx;
   color: #444;
@@ -15,8 +15,29 @@ page {
   align-items: center;
 } 
 
+.card-view {
+  background-color: white;
+  border-radius: 10rpx;
+  width: 96%;
+  margin: 20rpx auto;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+
 .flex-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.flex-between-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }

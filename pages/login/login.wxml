@@ -1,2 +1,6 @@
 <!--pages/login/login.wxml-->
-<text>pages/login/login.wxml</text>
+<view class="container">
+  <image src="../../images/logo.png" mode="aspectFill" style="width:500rpx;height:490rpx;margin-top:100rpx;"></image>
+
+  <button bindtap="toHome">微信快捷登录</button>
+</view>

@@ -1,0 +1,37 @@
+<!--pages/order-create/order-create.wxml-->
+<view class="container">
+  <view class="card-view flex-between">
+    <image class="logo"></image>
+    <view class="flex-between-vertical" style="flex-grow:1;margin-left:20rpx;height:160rpx;">
+      <view class="flex-between" style="width:100%;">
+        <view class="flex-between-vertical">
+          <text>话费充值-中国移动</text>
+          <text style="font-size:24rpx;color:#666;margin-top:10rpx;">充值号码：120 2233 5555</text>
+        </view>
+        <text style="font-size:24rpx;font-weight:bold;">￥100</text>
+      </view>
+      <view style="text-align:right;margin-top:10rpx;width:100%;">实付：￥95.00</view>
+    </view>
+  </view>
+
+  <view class="card-view" style="padding:0;">
+    <view class="cell">
+      <text>订单号：</text>
+      <text>111</text>
+    </view>
+    <view class="cell">
+      <text>支付时间：</text>
+      <text>111</text>
+    </view>
+    <view class="cell">
+      <text>优惠额度：</text>
+      <text>111</text>
+    </view>
+  </view>
+
+  <view class="bottom-view flex-between">
+    <text>实付款：</text>
+    <text style="color:#EA5B5B;flex:1;">￥100</text>
+    <button>提交订单</button>
+  </view>
+</view>

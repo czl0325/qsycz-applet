@@ -1,1 +1,12 @@
 /* pages/login/login.wxss */
+
+button {
+  color: white;
+  background-color: #FF7875;
+  height: 90rpx;
+  width: 700rpx;
+  margin-top: 200rpx;
+  border-radius: 45rpx;
+  line-height: 90rpx;
+  font-size: 28rpx;
+}

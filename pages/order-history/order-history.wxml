@@ -1,0 +1,4 @@
+<!--pages/order-history/order-history.wxml-->
+<view class="container">
+  <item-history style="width:100%;"/>
+</view>

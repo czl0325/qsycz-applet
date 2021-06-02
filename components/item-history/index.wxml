@@ -1,0 +1,20 @@
+<!--components/item-history/index.wxml-->
+<view class="cell">
+  <image></image>
+  <view class="rv">
+    <view class="rtv">
+      <text>1565646576723643434</text>
+      <text style="color:#24E05D;">充值成功</text>
+    </view>
+    <view class="rbv">
+      <view class="rblv">
+        <text>充值号码：120 2233 5555</text>
+        <text style="margin-top:10rpx;">2020-05-29 21:00</text>
+      </view>
+      <view class="rbrv">
+        <text style="font-size:24rpx;">￥100</text>
+        <text style="font-size:16rpx;color:#E02E24;">预计48小时内到账</text>
+      </view>
+    </view>
+  </view>
+</view>
